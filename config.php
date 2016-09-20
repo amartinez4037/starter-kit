@@ -18,6 +18,6 @@
 	//	Folder paths
 	// realpath(dirname(__FILE__)) => gets path to this specific file
 	defined("LIB_PATH") or define("LIB_PATH", realpath(dirname(__FILE__) . '/assets/lib'));
-    defined("HEADER") or define("HEADER", realpath(dirname(__FILE__) . '/assets/templates/header.php'));
+	defined("HEADER") or define("HEADER", realpath(dirname(__FILE__) . '/assets/templates/header.php'));
 	defined("FOOTER") or define("FOOTER", realpath(dirname(__FILE__) . '/assets/templates/footer.php'));
 ?>

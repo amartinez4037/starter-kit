@@ -6,9 +6,9 @@ require_once HEADER;
 
 <p>
     Main content of page!!!
+    <?php testPhpFunction('Hello'); ?>
 </p>
 
 <?php
-testPhpFunction('Hello');
 require_once FOOTER;
 ?>
