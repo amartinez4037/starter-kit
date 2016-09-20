@@ -10,8 +10,16 @@ define("DB_1", "db_1");
 define("DB_2", "db_2");
 
 // Connect to database
-$db_conn_1 = mysqli_connect(DB_HOST, DB_USER, DB_PW, DB_1) or die("Error DB1: " . mysqli_error($db_conn_1));
-$db_conn_2 = mysqli_connect(DB_HOST, DB_USER, DB_PW, DB_2) or die("Error DB2: " . mysqli_error($db_conn_2));
+// Procedurual method
+$db_conn_1 = mysqli_connect(DB_HOST, DB_USER, DB_PW, DB_1) or die("DB1 connection failed: " . mysqli_error($db_conn_1));
+if(mysqli_connect_errno($db_conn_1)) {
+    trigger_error('DB1 connection failed: ' . mysqli_error($db_conn_1), E_USER_ERROR);
+}
+// OOP method
+$db_conn_2 = new mysqli(DB_HOST, DB_USER, DB_PW, DB_2);
+if($db_conn_2->connect_error) {
+    trigger_error('DB2 connection failed: ' . $db_conn_2->connect_error, E_USER_ERROR);
+}
 
 // Define tables if desired
 define("TBL_1", "tbl_1");
