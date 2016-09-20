@@ -5,9 +5,9 @@ require_once HEADER;
 ?>
 
 <h1>About Page</h1>
-<p>
+<section id='about_section'>
     <?php testPhpFunction('Hello'); ?>
-</p>
+</section>
 
 <?php
 require_once FOOTER;

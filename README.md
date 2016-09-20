@@ -8,6 +8,3 @@
 * MySQL DB connections
 * Uses a configuration to define paths and configure some settings
 * Header and Footer files in order to have same header and footer across separate pages
-
-### Contact ###
-* Aron Martinez - aron@sonerd.com
