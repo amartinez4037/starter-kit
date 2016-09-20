@@ -12,7 +12,7 @@
 
 	// Define links
 	defined("HOME") or define("HOME", "https://10.13.1.51/");
-	defined("CSS") or define("CSS", HOME . "/assets/css/main.css");
+	defined("CSS") or define("CSS", HOME . "assets/css/main.css");
 
 	//	Folder paths
 	// realpath(dirname(__FILE__)) => gets path to this specific file
