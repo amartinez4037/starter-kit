@@ -13,7 +13,7 @@
 	// Define links
 	defined("HOME") or define("HOME", "https://10.13.1.51/starter-kit/");
 	defined("CSS") or define("CSS", HOME . "assets/css/main.css");
-	defined("JS") or define("JS", HOME . "assets/js/functions.js");
+	defined("JS_PATH") or define("JS_PATH", HOME . "assets/js");
 
 	//	Folder paths
 	// realpath(dirname(__FILE__)) => gets path to this specific file

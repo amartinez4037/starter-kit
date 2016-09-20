@@ -12,7 +12,7 @@
 
         <!-- JS -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-        <script type='text/javascript' src='<?php echo JS; ?>'></script>
+        <script type='text/javascript' src='<?php echo JS_PATH . "/functions.js"; ?>'></script>
 
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
