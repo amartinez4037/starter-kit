@@ -8,7 +8,7 @@
         <title>Starter Kit</title>
 
         <!-- <link rel="shortcut icon" href="assets/img/favicon.ico"> -->
-        <link rel='stylesheet' type='text/css' href=<?php echo CSS; ?> />
+        <link rel='stylesheet' type='text/css' href='<?php echo CSS; ?>' />
 
         <!-- Bootstrap -->
         <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" > -->
