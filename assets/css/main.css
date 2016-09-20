@@ -458,4 +458,11 @@ input[type="submit"], input[type="reset"], input[type="button"] {
     border-color: #888;
     outline: 0; }
 
+#about_section {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #01FF70;
+  color: red; }
+
 /*# sourceMappingURL=main.css.map */
