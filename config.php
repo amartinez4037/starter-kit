@@ -11,7 +11,7 @@
 	// date_default_timezone_set('America/Phoenix');
 
 	// Define links
-	defined("HOME") or define("HOME", "https://10.13.1.51/");
+	defined("HOME") or define("HOME", "https://10.13.1.51/starter-kit/");
 	defined("CSS") or define("CSS", HOME . "assets/css/main.css");
 
 	//	Folder paths
