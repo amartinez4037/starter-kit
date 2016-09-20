@@ -1,6 +1,5 @@
 $( document ).ready(function() {
 
-  // Get started!
-  console.log('JS is working!!!');
+  console.log('JS and jquery are working!!!');
 
 });
