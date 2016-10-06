@@ -8,3 +8,8 @@
 * MySQL DB connections
 * Uses a configuration to define paths and configure some settings
 * Header and Footer files in order to have same header and footer across separate pages
+
+### Changes that will need to be made ###
+* config.php - line 14 => change to your home path
+* index.php - line 2 => change to path of your config.php file
+* about.php - line 2 => change to path of your config.php file
