@@ -14,6 +14,7 @@
 * config.php - line 14 => change to your home path
 * index.php - line 2 => change to path of your config.php file
 * about.php - line 2 => change to path of your config.php file
+* assets/templates/header.php - line 5, 6, 8, and 10 => Update to your info
 
 
 ### Setup ###
