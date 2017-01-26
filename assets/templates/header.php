@@ -22,9 +22,23 @@
 
     <body>
     	<header>
-            <nav>
-                <a href="<?php echo HOME; ?>">Home</a>
-                <a href="<?php echo HOME . 'about.php'; ?>">About</a>
+            <nav class='navbar navbar-inverse'>
+                <div class='container-fluid'>
+                    <div class='navbar-header'>
+                        <button type="button" class='navbar-toggle' data-toggle='collapse' data-target='#mainNavBar'>
+                            <span class='icon-bar'></span> <span class='icon-bar'></span> <span class='icon-bar'></span>
+                        </button>
+
+                        <a href="/" class="navbar-brand"> Starter-Kit </a>
+                    </div>
+
+                    <div class='collapse navbar-collapse' id='mainNavBar'>
+                        <ul class='nav navbar-nav navbar-right'>
+                            <li><a href="<?php echo HOME; ?>">Home</a></li>
+                            <li><a href="<?php echo HOME . 'about.php'; ?>">About</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
 
