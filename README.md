@@ -1,9 +1,9 @@
 # soNerd starter kit #
 
-### Visit [sonerd.com](http://sonerd.com) - need to update link - for more info ###
+<!-- ### Visit [sonerd.com](http://sonerd.com) - need to update link - for more info ### -->
 
 ### Quick Explanation ###
-* A starting point for the next project using PHP
+* A starting point for a project using PHP
 * [SCSS](http://sass-lang.com/guide) , [JQuery](https://jquery.com/) , [Bootstrap](http://getbootstrap.com/)
 * MySQL DB connections
 * Uses a configuration to define paths and configure some settings
@@ -32,5 +32,5 @@ git gc # Clean up .git folder
 * config.php - line 14 => change to your home path
 * index.php - line 2 => change to path of your config.php file
 * about.php - line 2 => change to path of your config.php file
-* assets/templates/header.php - line 5, 6, 8, and 10 => Update to your info
-* assets/templates/header.php - line 14, 18, and 19 => Update to http if no SSL certificate
+* assets/templates/header.php - line 5, 6, 8, and 11 => Update to your info
+* assets/templates/header.php - line 14, 18, and 19 => Update to https if you have an SSL certificate
